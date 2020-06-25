@@ -1,0 +1,28 @@
+
+Physical volume "/dev/md1" successfully created.
+Physical volume "/dev/md0" successfully created.
+Volume group "FIT_vg" successfully created
+Logical volume "FIT_lv1" created.
+Logical volume "FIT_lv2" created.
+Creating filesystem with 102400 1k blocks and 25688 inodes
+Filesystem UUID: eae35bd9-a876-4c60-afb4-293d3ad330de
+Superblock backups stored on blocks: 
+	8193, 24577, 40961, 57345, 73729
+
+Allocating group tables:  0/13     done                            
+Writing inode tables:  0/13     done                            
+Creating journal (4096 blocks): done
+Writing superblocks and filesystem accounting information:  0/13     done
+
+meta-data=/dev/FIT_vg/FIT_lv2    isize=512    agcount=4, agsize=6400 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=1, sparse=1, rmapbt=0
+         =                       reflink=0
+data     =                       bsize=4096   blocks=25600, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0, ftype=1
+log      =internal log           bsize=4096   blocks=855, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+checksum of /mnt/test1/big_file:
+a1029eb4baaa7edd8cb9cd60e2d5fcf4b12e84b8d0ff793c8252726671745e34c96b29ca34a5d34a29b627aedb6db53319cf32d26e02847b6e9bae8130bf7116  /mnt/test1/big_file
